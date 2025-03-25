@@ -1,0 +1,17 @@
+.husky
+.vscode
+
+.releaserc.json
+tsconfig*.json
+jest*json
+nest*json
+config*json
+*.md
+
+.git
+.github
+.gitignore
+.eslint*
+
+scripts
+source
