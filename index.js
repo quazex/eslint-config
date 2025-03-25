@@ -97,7 +97,7 @@ module.exports = {
         }],
         '@stylistic/padded-blocks': ['error', {
             blocks: 'never',
-            classes: 'always',
+            classes: 'never',
         }, {
             allowSingleLineBlocks: true,
         }],
@@ -131,7 +131,7 @@ module.exports = {
             format: ['PascalCase'],
             custom: {
                 regex: '^I[A-Z]',
-                match: true,
+                match: false,
             },
         }, {
             selector: 'objectLiteralProperty',
@@ -143,12 +143,7 @@ module.exports = {
             leadingUnderscore: 'allow',
         }],
         '@typescript-eslint/no-explicit-any': ['error'],
-        '@typescript-eslint/no-magic-numbers': ['warn', {
-            ignore: [0, 1, -1, 10, 2, 1000],
-            ignoreArrayIndexes: true,
-            ignoreNumericLiteralTypes: true,
-            ignoreEnums: true,
-        }],
+        '@typescript-eslint/no-magic-numbers': ['off'],
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-this-alias': ['error', {
             allowedNames: ['self'],
