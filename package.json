@@ -1,20 +1,27 @@
 {
     "name": "@quazex/eslint-config",
-    "repository": "git://github.com/quazex/eslint-config.git",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/quazex/eslint-config.git"
+    },
     "description": "Custom eslint config for organization  packages",
     "version": "1.0.0",
     "author": "Alexander Smirnov",
+    "license": "MIT",
     "main": "index.js",
     "engines": {
         "node": ">= 20.x"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "dependencies": {
-        "@stylistic/eslint-plugin": "2.9.0",
-        "@typescript-eslint/eslint-plugin": "8.8.0",
-        "@typescript-eslint/parser": "8.8.0",
-        "eslint": "8.57.1",
-        "eslint-plugin-import": "2.31.0",
-        "eslint-plugin-promise": "7.2.1"
+        "@stylistic/eslint-plugin": "^2.9.0",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
+        "eslint": "^8.57.1",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-promise": "^7.2.1"
     },
     "devDependencies": {
         "@semantic-release/git": "10.0.1",
