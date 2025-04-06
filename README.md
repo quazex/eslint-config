@@ -22,7 +22,7 @@ Create an `.eslintrc.json` file in the root of your project and extend this conf
 
 ```json
 {
-    "extends": "@wildberries.backend/eslint-config"
+    "extends": "@quazex/eslint-config"
 }
 ```
 
@@ -32,7 +32,7 @@ You can override any predefined rule in the config, for example:
 
 ```json
 {
-    "extends": "@wildberries.backend/eslint-config",
+    "extends": "@quazex/eslint-config",
     "rules": {
         "init-declarations": "off",
     }
