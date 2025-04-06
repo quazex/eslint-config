@@ -5,7 +5,7 @@
         "url": "git://github.com/quazex/eslint-config.git"
     },
     "description": "Custom eslint config for organization packages",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Alexander Smirnov",
     "license": "MIT",
     "main": "index.js",
